@@ -1,0 +1,10 @@
+.description {
+  overflow: auto;
+  width: 50%;
+
+  gap: 2rem;
+}
+
+.description section {
+  margin-bottom: 4rem;
+}
