@@ -9,9 +9,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --font-color: #FFFFFF;
-    --backgroud-color: #0E0534;
+    --backgroud-color: #12100E;
     --background-rgb: rgb(33,14,75);
-    --background-gradient: linear-gradient(90deg, rgba(33,14,75,1) 58%, rgba(36,6,102,1) 100%);
+    --background-gradient: linear-gradient(180deg, rgba(18,16,14,1) 0%, rgba(17,25,38,1) 50%, rgba(18,16,14,1) 100%);
   }
 }
 
@@ -28,8 +28,9 @@ body {
 }
 
 body {
+  height: 100vh;
   color: var(--font-color);
-  background: var(--backgroud-color);
+  background: var(--background-gradient);
 }
 
 h1 {

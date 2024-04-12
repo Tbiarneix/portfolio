@@ -1,6 +1,6 @@
 .introduction {
   position: sticky;
-  top: 0;
+  top: 6rem;
   overflow: hidden;
 
   display: flex;
