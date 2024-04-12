@@ -1,4 +1,5 @@
 import styles from "./introduction.module.css";
+import Menu from "./menu/menu";
 
 function Introduction() {
   return (
@@ -7,14 +8,10 @@ function Introduction() {
         <h1>Thomas Biarneix</h1>
         <h2>Frontend Developer</h2>
         <p>
-          Passionate about interfaces, user experience and involved in the
+          Passionate about interfaces,user experience, and involved in the
           creation of accessible and eco-responsible applications.
         </p>
-        <div className={styles.menu}>
-          <a href="#about">about</a>
-          <a href="#about">experience</a>
-          <a href="#about">projects</a>
-        </div>
+       <Menu />
       </div>
       <div className={styles.social}>
         <a href="">LinkedIn</a>

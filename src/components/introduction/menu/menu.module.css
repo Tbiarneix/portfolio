@@ -1,0 +1,13 @@
+.menu {
+  margin-top: 2rem;
+}
+
+.menu ul {
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+}
+
+.menu ul:hover {
+  cursor: pointer;
+  opacity: 1;
+}
