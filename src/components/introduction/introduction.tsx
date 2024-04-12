@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import styles from "./introduction.module.css";
 
 import Image from "next/image";
@@ -19,20 +20,20 @@ function Introduction() {
         <Menu />
       </div>
       <div className={styles.social}>
-        <a href="https://www.linkedin.com/in/tbiarneix/" target="_blank">
-          <Image
-            src={linkedinLogoWhite}
-            alt="LinkedIn"
-            width={50}
-            height={50}
-          />
-        </a>
         <a href="https://github.com/Tbiarneix" target="_blank">
           <Image
             src={githubLogoWhite}
-            alt="GitHub"
-            width={50}
-            height={50}
+            alt="GitHub logo"
+            width={32}
+            height={32}
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/tbiarneix/" target="_blank">
+          <Image
+            src={linkedinLogoWhite}
+            alt="LinkedIn logo"
+            width={32}
+            height={32}
           />
         </a>
       </div>

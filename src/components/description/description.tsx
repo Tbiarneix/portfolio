@@ -1,70 +1,70 @@
 import styles from "./description.module.css";
 
 function Description() {
+  const handleScroll = (event: any) => {
+    console.log("User scrolled:", event.target.scrollTop);
+  };
+
   return (
-    <main className={styles.description}>
+    <main className={styles.description} onScroll={handleScroll}>
       <section id="about">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
           eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
           nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
+          nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies.
+          In porta lorem at dui semper, sit amet ornare nisl ullamcorper.
+          Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed
+          imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at
+          dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet
+          lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum
+          pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit
+          amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis
+          nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et
+          ultricies. In porta lorem at dui semper, sit amet ornare nisl
+          ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla
+          pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In
+          porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam
+          ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet
+          ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper,
+          sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec
+          mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque.
         </p>
       </section>
       <section id="experiences">
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
           eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
           nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
-          nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
+          nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies.
+          In porta lorem at dui semper, sit amet ornare nisl ullamcorper.
+          Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed
+          imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at
+          dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet
+          lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum
+          pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit
+          amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis
+          nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et
+          ultricies. In porta lorem at dui semper, sit amet ornare nisl
+          ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla
+          pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In
+          porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam
+          ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet
+          ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper,
+          sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec
+          mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque.
         </p>
       </section>
       <section id="projects">
@@ -72,7 +72,29 @@ function Description() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
           eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
           nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
+          nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies.
+          In porta lorem at dui semper, sit amet ornare nisl ullamcorper.
+          Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed
+          imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at
+          dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet
+          lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum
+          pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit
+          amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis
+          nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et
+          ultricies. In porta lorem at dui semper, sit amet ornare nisl
+          ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla
+          pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In
+          porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam
+          ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet
+          ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper,
+          sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec
+          mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque.
         </p>
       </section>
       <section id="others">
@@ -80,7 +102,29 @@ function Description() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
           eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare
           nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac
-          nulla pretium, sed imperdiet ipsum pellentesque.
+          nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies.
+          In porta lorem at dui semper, sit amet ornare nisl ullamcorper.
+          Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed
+          imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at
+          dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet
+          lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum
+          pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit
+          amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis
+          nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et
+          ultricies. In porta lorem at dui semper, sit amet ornare nisl
+          ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla
+          pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In
+          porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam
+          ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet
+          ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper,
+          sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec
+          mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque.
         </p>
       </section>
     </main>
