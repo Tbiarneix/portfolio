@@ -8,6 +8,7 @@ const Others = () => {
 
     if (target.style.width === "50%") {
       target.style.width = "30%";
+      target.style.backgroundImage = target.style.backgroundImage.split(",")[8];
       siblings.forEach((sibling: any) => {
         if (sibling !== target) {
           sibling.style.width = "30%";
@@ -20,12 +21,13 @@ const Others = () => {
     }
 
     target.style.width = "50%";
+    target.style.backgroundImage = `linear-gradient(rgba(75, 75, 75, 0.8), rgba(75, 75, 75, 0.8)), ${target.style.backgroundImage}`;
     siblings.forEach((sibling: any) => {
       if (sibling !== target) {
         sibling.style.width = "20%";
+        sibling.style.backgroundImage = sibling.style.backgroundImage.split(",")[8];
         sibling.children[1].style.visibility = "hidden";
         sibling.children[2].style.visibility = "hidden";
-
       } else {
         sibling.children[1].style.visibility = "visible";
         sibling.children[2].style.visibility = "visible";
@@ -39,7 +41,9 @@ const Others = () => {
         <div
           key={index}
           className={styles.item}
-          style={{ backgroundImage: `url(${item.backgroudImage})` }}
+          style={{
+            backgroundImage: `url(${item.backgroudImage})`,
+          }}
           onClick={expandOnClick}
         >
           <h3 className={styles["item-title"]}>{item.title}</h3>

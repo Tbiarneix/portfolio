@@ -13,6 +13,7 @@
 
   background-position: center;
   background-size: cover;
+  background-color: rgba(75, 75, 75, 0.8) !important;
   border-radius: 2vw;
 
   cursor: pointer;
