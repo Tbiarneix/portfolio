@@ -1,0 +1,46 @@
+.group {
+  display: flex;
+  flex-direction: row;
+  
+  text-align: center;
+  overflow: hidden;
+}
+
+.item {
+  width: 30%;
+  height: 20vh;
+  margin: 0.5rem;
+
+  background-position: center;
+  background-size: cover;
+  border-radius: 2vw;
+
+  cursor: pointer;
+  transition: 0.8s;
+
+  text-shadow: 1px 1px 2px #000;
+}
+
+.item-title {
+  visibility: hidden;
+
+  margin-top: 2rem;
+}
+
+.item-description {
+  visibility: hidden;
+  transition-delay: 0.3s;
+
+  margin: 1rem 10px 0.5rem;
+}
+
+.item-link {
+  visibility: hidden;
+  transition-delay: 0.3s;
+
+  margin-top: 1rem;
+}
+
+.item:hover .item-title {
+  visibility: visible;
+}

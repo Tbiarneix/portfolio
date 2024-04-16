@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./menu.module.css";
 
-function Menu() {
+const Menu = () => {
   const [activeLink, setActiveLink] = useState<string | null>(null);
 
   const handleClick = (
@@ -37,6 +37,6 @@ function Menu() {
       </ul>
     </menu>
   );
-}
+};
 
 export default Menu;

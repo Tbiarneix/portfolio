@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import styles from "./introduction.module.css";
 
 import Image from "next/image";
@@ -7,7 +6,7 @@ import Menu from "./menu/menu";
 import githubLogoWhite from "/src/assets/github-logo-blanc.png";
 import linkedinLogoWhite from "/src/assets/linkedin-logo-blanc.png";
 
-function Introduction() {
+const Introduction = () => {
   return (
     <header id="header" className={styles.introduction}>
       <div className={styles.top}>
