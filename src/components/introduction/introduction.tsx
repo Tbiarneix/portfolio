@@ -7,6 +7,7 @@ import githubLogoWhite from "/src/assets/github-logo-blanc.png";
 import linkedinLogoWhite from "/src/assets/linkedin-logo-blanc.png";
 
 import styles from "./introduction.module.css";
+import LanguageSwitcher from "@/app/[locale]/LangageSwitcher";
 
 const Introduction = () => {
   const t = useTranslations("Introduction");
@@ -19,23 +20,28 @@ const Introduction = () => {
         <p>{t("INTRODUCTION")}</p>
         <Menu />
       </div>
-      <div className={styles.social}>
-        <a href="https://github.com/Tbiarneix" target="_blank">
-          <Image
-            src={githubLogoWhite}
-            alt="GitHub logo"
-            width={32}
-            height={32}
-          />
-        </a>
-        <a href="https://www.linkedin.com/in/tbiarneix/" target="_blank">
-          <Image
-            src={linkedinLogoWhite}
-            alt="LinkedIn logo"
-            width={32}
-            height={32}
-          />
-        </a>
+      <div>
+        <div>
+          <LanguageSwitcher />
+        </div>
+        <div className={styles.social}>
+          <a href="https://github.com/Tbiarneix" target="_blank">
+            <Image
+              src={githubLogoWhite}
+              alt="GitHub logo"
+              width={32}
+              height={32}
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/tbiarneix/" target="_blank">
+            <Image
+              src={linkedinLogoWhite}
+              alt="LinkedIn logo"
+              width={32}
+              height={32}
+            />
+          </a>
+        </div>
       </div>
     </header>
   );
