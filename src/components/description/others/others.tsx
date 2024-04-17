@@ -1,7 +1,12 @@
-import styles from "./others.module.css";
+import { useTranslations } from "next-intl";
+
 import { otherItems } from "./otherItems.data";
 
+import styles from "./others.module.css";
+
 const Others = () => {
+  const t = useTranslations("Description");
+
   const expandOnClick = (event: { currentTarget: any }) => {
     const target = event.currentTarget;
     const siblings = Array.from(target.parentNode.children);
@@ -25,7 +30,8 @@ const Others = () => {
     siblings.forEach((sibling: any) => {
       if (sibling !== target) {
         sibling.style.width = "20%";
-        sibling.style.backgroundImage = sibling.style.backgroundImage.split(",")[8];
+        sibling.style.backgroundImage =
+          sibling.style.backgroundImage.split(",")[8];
         sibling.children[1].style.visibility = "hidden";
         sibling.children[2].style.visibility = "hidden";
       } else {
@@ -46,10 +52,12 @@ const Others = () => {
           }}
           onClick={expandOnClick}
         >
-          <h3 className={styles["item-title"]}>{item.title}</h3>
-          <p className={styles["item-description"]}>{item.descripion}</p>
+          <h3 className={styles["item-title"]}>{t(`${item.title}`)}</h3>
+          <p className={styles["item-description"]}>
+            {t(`${item.descripion}`)}
+          </p>
           <a href={item.url} target="_blank" className={styles["item-link"]}>
-            <b>Discover more</b>
+            <b>{t("OTHERS.DISCOVER")}</b>
           </a>
         </div>
       ))}
