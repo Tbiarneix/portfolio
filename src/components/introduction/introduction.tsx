@@ -7,15 +7,14 @@ import githubLogoWhite from "/src/assets/github-logo-blanc.png";
 import linkedinLogoWhite from "/src/assets/linkedin-logo-blanc.png";
 
 const Introduction = () => {
+  // const { t } = useTranslation("introduction");
+
   return (
     <header id="header" className={styles.introduction}>
       <div className={styles.top}>
-        <h1>Thomas Biarneix</h1>
-        <h2>Frontend Developer</h2>
-        <p>
-          Passionate about interfaces, user experience, and involved in the
-          creation of accessible and eco-responsible applications.
-        </p>
+        {/* <h1>{t("SITE_NAME")}</h1>
+        <h2>{t("JOB_TITLE")}</h2>
+        <p>{t("INTRODUCTION")}</p> */}
         <Menu />
       </div>
       <div className={styles.social}>
@@ -38,6 +37,6 @@ const Introduction = () => {
       </div>
     </header>
   );
-}
+};
 
 export default Introduction;
