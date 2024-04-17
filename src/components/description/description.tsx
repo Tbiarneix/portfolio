@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import styles from "./description.module.css";
 import Others from "./others/others";
 
