@@ -1,11 +1,12 @@
-import styles from "./introduction.module.css";
-
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+
 import Menu from "./menu/menu";
 
 import githubLogoWhite from "/src/assets/github-logo-blanc.png";
 import linkedinLogoWhite from "/src/assets/linkedin-logo-blanc.png";
-import { useTranslations } from "next-intl";
+
+import styles from "./introduction.module.css";
 
 const Introduction = () => {
   const t = useTranslations("Introduction");

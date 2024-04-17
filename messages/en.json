@@ -1,7 +1,31 @@
 {
+  "Menu": {
+    "ABOUT": "ABOUT",
+    "EXPERIENCES": "EXPERIENCES",
+    "PROJECTS": "PROJECTS",
+    "OTHERS": "OTHERS"
+  },
   "Introduction": {
     "SITE_NAME": "Thomas Biarneix",
     "JOB_TITLE": "Front-end Developer",
     "INTRODUCTION": "Passionate about interfaces, user experience, and involved in the creation of accessible and eco-responsible applications."
+  },
+  "Description": {
+    "ABOUT": "Ab Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper, sit amet ornare nisl ullamcorper. Aliquam ut aliquet lorem. Donec mollis nulla ac nulla pretium, sed imperdiet ipsum pellentesque.out",
+    "OTHERS": {
+      "PHOTO": {
+        "TITLE": "Photo",
+        "DESCRIPTION": "Discover my passion (and old profession) for phography."
+      },
+      "PODCAST": {
+        "TITLE": "Podcast",
+        "DESCRIPTION": "I launched Photosensible podcast to give photographers a voice."
+      },
+      "MUSIC": {
+        "TITLE": "Music",
+        "DESCRIPTION": "How live without music? Want to share?"
+      },
+      "DISCOVER": "Discover more"
+    }
   }
 }

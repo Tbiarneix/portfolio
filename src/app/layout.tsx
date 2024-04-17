@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Thomas Biarneix - Développeur web",
-  description: "Développeur web fullstack, passionné par le web et les nouvelles technologies.",
+  title: "Thomas Biarneix - Web developer",
+  description: "Frontend web developer based in Toulouse, France",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );

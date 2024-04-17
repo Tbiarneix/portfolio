@@ -7,23 +7,23 @@ interface IOtherItems {
   
   export const otherItems: IOtherItems[] = [
     {
-      title: "Photo",
+      title: "OTHERS.PHOTO.TITLE",
       backgroudImage:
         "./photography.jpg",
-      descripion: "Discover my passion (and old profession) for phography.",
+      descripion: "OTHERS.PHOTO.DESCRIPTION",
       url: "https://thomasbiarneix.com",
     },
     {
-      title: "Podcast",
+      title: "OTHERS.PODCAST.TITLE",
       backgroudImage: "./podcast.jpg",
-      descripion: "I launched Photosensible podcast to give photographers a voice.",
+      descripion: "OTHERS.PODCAST.DESCRIPTION",
       url: "https://photosensible.lepodcast.fr/",
     },
     {
-      title: "Music",
+      title: "OTHERS.MUSIC.TITLE",
       backgroudImage:
         "./music.jpg",
-      descripion: "How live without music? Want to share?",
+      descripion: "OTHERS.MUSIC.DESCRIPTION",
       url: "https://open.spotify.com/user/tbiarneix",
     },
   ];
