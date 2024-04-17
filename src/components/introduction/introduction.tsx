@@ -7,7 +7,7 @@ import githubLogoWhite from "/src/assets/github-logo-blanc.png";
 import linkedinLogoWhite from "/src/assets/linkedin-logo-blanc.png";
 
 import styles from "./introduction.module.css";
-import LanguageSwitcher from "@/app/[locale]/LangageSwitcher";
+import LanguageSwitcher from "./language-switcher/LanguageSwitcher";
 
 const Introduction = () => {
   const t = useTranslations("Introduction");
@@ -19,11 +19,11 @@ const Introduction = () => {
         <h2>{t("JOB_TITLE")}</h2>
         <p>{t("INTRODUCTION")}</p>
         <Menu />
-      </div>
-      <div>
         <div>
           <LanguageSwitcher />
         </div>
+      </div>
+      <div>
         <div className={styles.social}>
           <a href="https://github.com/Tbiarneix" target="_blank">
             <Image
