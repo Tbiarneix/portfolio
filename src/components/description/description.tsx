@@ -21,15 +21,14 @@ const Description = () => {
 
   return (
     <main className={styles.description}>
-      <section id="about">
-        <p>{t("ABOUT")}</p>
+      <section id="about" className={styles.about}>
+        <p>{t("ABOUT.FIRST")}</p>
+        <p>{t("ABOUT.SECOND")}</p>
+        <p>{t("ABOUT.THIRD")}</p>
+        <p>{t("ABOUT.FOURTH")}</p>
       </section>
-      <section id="experiences">
-        <p>{t("ABOUT")}</p>
-      </section>
-      <section id="projects">
-        <p>{t("ABOUT")}</p>
-      </section>
+      <section id="experiences"></section>
+      <section id="projects"></section>
       <section id="others">
         <Others />
       </section>

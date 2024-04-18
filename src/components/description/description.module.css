@@ -9,3 +9,9 @@
 .description section {
   margin-bottom: 4rem;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
