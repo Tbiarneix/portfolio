@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { luciole } from "@/font/custom-font";
 
 export const metadata: Metadata = {
   title: "Thomas Biarneix - Web developer",
@@ -22,7 +20,7 @@ export default function RootLayout({
   console.log(messages);
 
   return (
-    <html lang={locale} className={inter.className}>
+    <html lang={locale} className={luciole.className}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
