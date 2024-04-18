@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 
+import Experiences from "./experiences/experiences";
 import Others from "./others/others";
 
 import styles from "./description.module.css";
@@ -27,7 +28,9 @@ const Description = () => {
         <p>{t("ABOUT.THIRD")}</p>
         <p>{t("ABOUT.FOURTH")}</p>
       </section>
-      <section id="experiences"></section>
+      <section id="experiences">
+        <Experiences />
+      </section>
       <section id="projects"></section>
       <section id="others">
         <Others />
