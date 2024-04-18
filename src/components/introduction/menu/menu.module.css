@@ -13,9 +13,11 @@
 
 .inactive-link {
   opacity: 0.6;
+  transition: 0.5s;
 }
 
 .active-link {
   margin-left: 0.5rem;
   opacity: 1;
+  transition: 0.5s;
 }
