@@ -41,7 +41,7 @@ const Experiences = () => {
         <>
           {lastsExperiences.map((experience, index) => (
             <div className={styles.card} key={index}>
-              <span className={styles["job-details"]}>{experience.date}</span>
+              <span className={styles["job-date"]}>{experience.date}</span>
               <div className={styles.job}>
                 <div>
                   <h3>{experience.compagny}</h3>
@@ -64,7 +64,7 @@ const Experiences = () => {
         <>
           {formations.map((formations, index) => (
             <div className={styles.card} key={index}>
-              <span className={styles["job-details"]}>{formations.date}</span>
+              <span className={styles["job-date"]}>{formations.date}</span>
               <div className={styles.job}>
                 <div>
                   <h3>{tDescription(`${formations.title}`)}</h3>

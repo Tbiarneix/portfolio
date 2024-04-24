@@ -47,6 +47,12 @@
   width: 100%;
 }
 
+.job-date {
+  padding-top: 0.3rem;
+  font-size: small;
+  color: grey;
+}
+
 .job-details {
   width: fit-content;
   color: grey;
@@ -55,6 +61,7 @@
 .tag-container {
   display: flex;
   flex-direction: row;
+
   gap: 0.5rem;
   margin-top: 0.75rem;
 }
@@ -62,6 +69,7 @@
 .tag {
   padding: 0.5rem 1rem;
 
+  font-size: small;
   color: #8cc6e5;
   background-color: #8cc6e520;
   border-radius: 5em;
@@ -69,7 +77,9 @@
 
 .resume {
   margin-right: 1rem;
+  
   text-align: right;
+  color: grey;
 }
 
 .arrow {
