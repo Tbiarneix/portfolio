@@ -1,8 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-import Menu from "./menu/menu";
-
 import githubLogoWhite from "/src/assets/github-logo-blanc.png";
 import linkedinLogoWhite from "/src/assets/linkedin-logo-blanc.png";
 
@@ -18,7 +16,6 @@ const Introduction = () => {
         <h1>{t("SITE_NAME")}</h1>
         <h2>{t("JOB_TITLE")}</h2>
         <p>{t("INTRODUCTION")}</p>
-        <Menu />
         <div>
           <LanguageSwitcher />
         </div>

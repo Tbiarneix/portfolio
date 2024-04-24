@@ -17,7 +17,6 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   const messages = useMessages();
-  console.log(messages);
 
   return (
     <html lang={locale} className={luciole.className}>

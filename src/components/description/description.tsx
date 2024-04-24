@@ -7,18 +7,6 @@ import styles from "./description.module.css";
 
 const Description = () => {
   const t = useTranslations("Description");
-  // const handleScroll = () => {
-  //     const scrollPosition = window.scrollY; // => scroll position
-  //     console.log(scrollPosition);
-  // };
-  // handleScroll();
-  // useEffect(() => {
-  //   handleScroll();
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  //   }, []);
 
   return (
     <main className={styles.description}>
@@ -26,7 +14,6 @@ const Description = () => {
         <p>{t("ABOUT.FIRST")}</p>
         <p>{t("ABOUT.SECOND")}</p>
         <p>{t("ABOUT.THIRD")}</p>
-        <p>{t("ABOUT.FOURTH")}</p>
       </section>
       <section id="experiences">
         <Experiences />

@@ -1,8 +1,15 @@
 import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { MoveUpRight } from "lucide-react";
+
+import { lastsExperiences } from "./last-experiences.data";
+import { formations } from "./formations.data";
 
 import styles from "./experiences.module.css";
 
 const Experiences = () => {
+  const tDescription = useTranslations("Description");
+  const tCommon = useTranslations("Common");
   const [activeTab, setActiveTab] = useState("experiences");
 
   const switchTab = () => {
@@ -20,77 +27,62 @@ const Experiences = () => {
           className={activeTab === "formations" ? styles["unactive-tab"] : ""}
           onClick={switchTab}
         >
-          Lasts experiences
+          {tDescription("EXPERIENCES.EXPERIENCES_TITLE")}
         </h4>
         <h4
           className={activeTab === "experiences" ? styles["unactive-tab"] : ""}
           onClick={switchTab}
         >
-          Formations
+          {tDescription("FORMATIONS.FORMATIONS_TITLE")}
         </h4>
       </div>
       <hr />
       {activeTab === "experiences" ? (
         <>
-          <div className={styles["experience-card"]}>
-            <span className={styles.date}>2023 - Now </span>
-            <div className={styles[""]}>
-              <h3>Sogeti</h3>
-              <h4>Developer</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+          {lastsExperiences.map((experience, index) => (
+            <div className={styles.card} key={index}>
+              <span className={styles["job-details"]}>{experience.date}</span>
+              <div className={styles.job}>
+                <div>
+                  <h3>{experience.compagny}</h3>
+                  <span className={styles["job-details"]}>
+                    {tDescription(`${experience.title}`)}
+                  </span>
+                </div>
+                <div className={styles["tag-container"]}>
+                  {experience.tags.map((tag, index) => (
+                    <span key={index} className={styles.tag}>
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
-          </div>
-          <div className={styles["experience-card"]}>
-            <span className={styles.date}>2022 - 2023 </span>
-            <div className={styles[""]}>
-              <h3>Schoolmouv</h3>
-              <h4>Developer</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
-          <div className={styles["experience-card"]}>
-            <span className={styles.date}>2021 - 2022 </span>
-            <div className={styles[""]}>
-              <h3>Voltyo</h3>
-              <h4>Developer</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
-          <p>View full Résumé</p>
+          ))}
         </>
       ) : (
         <>
-          <div className={styles["experience-card"]}>
-            <span className={styles.date}>2022 - 2023 </span>
-            <div className={styles[""]}>
-              <h3>Wild Code School</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+          {formations.map((formations, index) => (
+            <div className={styles.card} key={index}>
+              <span className={styles["job-details"]}>{formations.date}</span>
+              <div className={styles.job}>
+                <div>
+                  <h3>{tDescription(`${formations.title}`)}</h3>
+                  <span className={styles["job-details"]}>
+                    {formations.compagny}
+                  </span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className={styles["experience-card"]}>
-            <span className={styles.date}>2021 - 2022 </span>
-            <div className={styles[""]}>
-              <h3>Wild Code School</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
+          ))}
         </>
       )}
+      <p className={styles.resume}>
+        <a href="/Thomas Biarneix - CV.pdf" target="_blank">
+          {tCommon("RESUME")}
+          <MoveUpRight className={styles.arrow} size={16} />
+        </a>
+      </p>
     </div>
   );
 };

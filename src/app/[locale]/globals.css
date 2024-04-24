@@ -5,10 +5,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --font-color: #FFFFFF;
-    --backgroud-color: #12100E;
-    --background-rgb: rgb(33,14,75);
-    --background-gradient: linear-gradient(180deg, rgba(18,16,14,1) 0%, rgba(17,25,38,1) 50%, rgba(18,16,14,1) 100%);
+    --font-color: #ffffff;
+    --backgroud-color: #12100e;
+    --background-rgb: rgb(33, 14, 75);
+    --background-gradient: linear-gradient(
+      180deg,
+      rgba(18, 16, 14, 1) 0%,
+      rgba(17, 25, 38, 1) 50%,
+      rgba(18, 16, 14, 1) 100%
+    );
   }
 }
 
@@ -51,6 +56,10 @@ p {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  color: #8cc6e5;
 }
 
 @media (prefers-color-scheme: dark) {

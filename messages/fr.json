@@ -1,4 +1,8 @@
 {
+  "Common": {
+    "NOW": "2023 à maintenant",
+    "RESUME": "Voir le CV complet"
+  },
   "Menu": {
     "ABOUT": "A PROPOS",
     "EXPERIENCES": "EXPERIENCES",
@@ -14,8 +18,19 @@
     "ABOUT": {
       "FIRST" : "Fort de dix années d'expérience dans le domaine de la communication et du marketing numérique, ainsi que de deux années enrichissantes en tant que consultant indépendant, j'ai récemment entrepris une transition passionnante vers le métier de développeur web.",
       "SECOND": "Mon parcours professionnel m'a permis de maîtriser les rouages du marketing digital, en naviguant à travers les défis et les opportunités qu'offre ce secteur en constante évolution. Ces années d'expérience m'ont inculqué une rigueur méthodologique, une capacité d'adaptation constante et une aptitude à concevoir des stratégies innovantes pour répondre aux besoins spécifiques de chaque projet.",
-      "THIRD": "Cependant, ma passion véritable réside dans la création de solutions technologiques qui vont au delà de simples objectifs commerciaux et qui répondent aux enjeux sociétaux de notre époque. Convaincu que la technologie peut être un moteur de progrès, je suis déterminé à mettre mes compétences au service de la conception et du développement de solutions web innovantes. Mon ambition est de contribuer à façonner un monde meilleur en participant à la création de plateformes et d'applications qui répondent aux enjeux actuels de développement durable et d'accessibilité.",
+      "THIRD": "Cependant, ma véritable passion réside dans la création de solutions technologiques qui vont au delà de simples objectifs commerciaux et qui répondent aux enjeux sociétaux de notre époque. Convaincu que la technologie peut être un moteur de progrès, je suis déterminé à mettre mes compétences au service de la conception et du développement de solutions web innovantes. Mon ambition est de contribuer à façonner un monde meilleur en participant à la création de plateformes et d'applications qui répondent aux enjeux actuels de développement durable et d'accessibilité.",
       "FOURTH": "Je suis convaincu que le développement web représente un terrain fertile où convergent mes compétences en communication, en marketing et désormais en programmation. Je suis impatient de relever de nouveaux défis et de collaborer avec des esprits créatifs pour donner vie à des idées novatrices qui façonneront notre avenir numérique."
+    },
+    "EXPERIENCES": {
+      "EXPERIENCES_TITLE": "Dernières expériences",
+      "SOGETI_JOB_TITLE": "Développeur consultant",
+      "SCHOOLMOUV_JOB_TITLE": "Développeur fullstack",
+      "VOLTYO_JOB_TITLE": "Développeur frontend"
+    },
+    "FORMATIONS": {
+      "FORMATIONS_TITLE": "Formations",
+      "DEV_WEB_TITLE": "Développeur web et web mobile",
+      "DEV_CONCEPTOR_TITLE": "Concepteur développeur d'applications"
     },
     "OTHERS": {
       "PHOTO": {
