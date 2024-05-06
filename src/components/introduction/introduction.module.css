@@ -28,3 +28,17 @@
   display: flex;
   gap: 1rem;
 }
+
+@media (max-width: 1120px) {
+  .introduction {
+    position: relative;
+    top: 3rem;
+  
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+  
+    width: 100%;
+    height: auto;
+  }
+}
