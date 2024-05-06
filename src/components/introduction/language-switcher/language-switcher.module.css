@@ -1,0 +1,12 @@
+.language-switcher img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+
+  cursor: pointer;
+}
+
+.language-switcher img:hover {
+  transition: 500ms;
+  transform: rotate(360deg);
+}
