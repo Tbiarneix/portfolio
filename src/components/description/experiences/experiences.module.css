@@ -48,6 +48,7 @@
 }
 
 .job-date {
+  width: 3rem;
   padding-top: 0.3rem;
   font-size: small;
   color: grey;
@@ -67,7 +68,7 @@
 }
 
 .tag {
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem 0.4rem;
 
   font-size: small;
   color: #8cc6e5;

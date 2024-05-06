@@ -28,7 +28,8 @@
       "VOLTYO_JOB_TITLE": "Développeur frontend"
     },
     "FORMATIONS": {
-      "FORMATIONS_TITLE": "Formations",
+      "FORMATIONS_TITLE": "Certifications",
+      "AWS_TITLE": "AWS Certified Cloud Practitioner",
       "DEV_WEB_TITLE": "Développeur web et web mobile",
       "DEV_CONCEPTOR_TITLE": "Concepteur développeur d'applications"
     },

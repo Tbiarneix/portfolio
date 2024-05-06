@@ -10,7 +10,7 @@ export const lastsExperiences: ILastsExperiences[] = [
     date: "2023 Now",
     compagny: "Sogeti",
     title: "EXPERIENCES.SOGETI_JOB_TITLE",
-    tags: ["React", "Typescript"],
+    tags: ["React", "Typescript", "AWS"],
   },
   {
     date: "2022 2023",

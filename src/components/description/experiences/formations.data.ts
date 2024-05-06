@@ -6,6 +6,11 @@ interface IFormations {
 
 export const formations: IFormations[] = [
   {
+    date: "2024",
+    title: "FORMATIONS.AWS_TITLE",
+    compagny: "Amazon web services",
+  },
+  {
     date: "2022 2023",
     title: "FORMATIONS.DEV_CONCEPTOR_TITLE",
     compagny: "Wild Code School",
