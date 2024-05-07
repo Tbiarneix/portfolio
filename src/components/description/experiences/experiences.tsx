@@ -7,7 +7,7 @@ import { formations } from "./formations.data";
 
 import styles from "./experiences.module.css";
 
-const Experiences = () => {
+const Experiences: React.FC = () => {
   const tDescription = useTranslations("Description");
   const tCommon = useTranslations("Common");
   const [activeTab, setActiveTab] = useState("experiences");

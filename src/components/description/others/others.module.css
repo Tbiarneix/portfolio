@@ -1,7 +1,7 @@
 .group {
   display: flex;
   flex-direction: row;
-  
+
   text-align: center;
   overflow: hidden;
 }
@@ -44,4 +44,10 @@
 
 .item:hover .item-title {
   visibility: visible;
+}
+
+@media (max-width: 1120px) {
+  .item-title {
+    visibility: visible;
+  }
 }

@@ -7,7 +7,7 @@ import linkedinLogoWhite from "/src/assets/linkedin-logo-blanc.png";
 import styles from "./introduction.module.css";
 import LanguageSwitcher from "./language-switcher/LanguageSwitcher";
 
-const Introduction = () => {
+const Introduction: React.FC = () => {
   const t = useTranslations("Introduction");
 
   return (

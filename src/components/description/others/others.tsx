@@ -4,7 +4,7 @@ import { otherItems } from "./otherItems.data";
 
 import styles from "./others.module.css";
 
-const Others = () => {
+const Others: React.FC = () => {
   const t = useTranslations("Description");
 
   const expandOnClick = (event: { currentTarget: any }) => {

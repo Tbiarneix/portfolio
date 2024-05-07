@@ -5,7 +5,7 @@ import styles from "./language-switcher.module.css";
 import frenchFlag from "/src/assets/france.png";
 import ukFlag from "/src/assets/united-kingdom.png";
 
-const LanguageSwitcher = () => {
+const LanguageSwitcher: React.FC = () => {
   const router = useRouter();
 
   return (
