@@ -22,9 +22,10 @@
   display: flex;
 
   gap: 1rem;
-
   margin: 1rem 0;
   padding: 1rem;
+
+  cursor: pointer;
 }
 
 .card:hover {
@@ -78,7 +79,7 @@
 
 .resume {
   margin-right: 1rem;
-  
+
   text-align: right;
   color: grey;
 }

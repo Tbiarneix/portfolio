@@ -40,7 +40,11 @@ const Experiences: React.FC = () => {
       {activeTab === "experiences" ? (
         <>
           {lastsExperiences.map((experience, index) => (
-            <div className={styles.card} key={index}>
+            <div
+              className={styles.card}
+              key={index}
+              onClick={() => window.open(experience.url, "_blank")}
+            >
               <span className={styles["job-date"]}>{experience.date}</span>
               <div className={styles.job}>
                 <div>
@@ -63,7 +67,11 @@ const Experiences: React.FC = () => {
       ) : (
         <>
           {formations.map((formations, index) => (
-            <div className={styles.card} key={index}>
+            <div
+              className={styles.card}
+              key={index}
+              onClick={() => window.open(formations.url, "_blank")}
+            >
               <span className={styles["job-date"]}>{formations.date}</span>
               <div className={styles.job}>
                 <div>
