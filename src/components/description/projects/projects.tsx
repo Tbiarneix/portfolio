@@ -2,13 +2,13 @@ import Image from "next/image";
 import { projects } from "./projects.data";
 
 import styles from "./projects.module.css";
-import { fetchInternalImage } from "next/dist/server/image-optimizer";
 
 const Projects: React.FC = () => {
   return (
     <>
+    <h4>Derniers projets</h4>
+    <hr />
       {projects.map((project, index) => {
-        // fetchInternalImage(project.image);
         return (
           <div
             className={styles["project-card"]}
@@ -19,8 +19,8 @@ const Projects: React.FC = () => {
               className={styles["project-image"]}
               src={project.image}
               alt={project.title}
-              width={200}
-              height={200}
+              width={100}
+              height={100}
             />
             <div className={styles["project-details"]}>
               <div>
