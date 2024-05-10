@@ -1,0 +1,20 @@
+.tab {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tab h4 {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .unactive-tab {
+    color: grey;
+  }
+  
+  .tab h4:hover {
+    color: #fff;
+  }
+  
