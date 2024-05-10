@@ -1,13 +1,15 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+
 import { projects } from "./projects.data";
 
 import styles from "./projects.module.css";
 
 const Projects: React.FC = () => {
+  const t = useTranslations("Description");
+
   return (
     <>
-    <h4>Derniers projets</h4>
-    <hr />
       {projects.map((project, index) => {
         return (
           <div
@@ -24,9 +26,9 @@ const Projects: React.FC = () => {
             />
             <div className={styles["project-details"]}>
               <div>
-                <h3>{project.title}</h3>
+                <h3> {t(`${project.title}`)}</h3>
                 <span className={styles["project-description"]}>
-                  {project.description}
+                  {t(`${project.description}`)}
                 </span>
                 <div className={styles["tag-container"]}>
                   {project.tags.map((tag, index) => (

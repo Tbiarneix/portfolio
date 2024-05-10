@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { MoveUpRight } from "lucide-react";
 
 import { lastsExperiences } from "./last-experiences.data";
 import { formations } from "./formations.data";
 
 import styles from "./experiences.module.css";
+import { MoveUpRight } from "lucide-react";
 
 const Experiences: React.FC = () => {
   const tDescription = useTranslations("Description");

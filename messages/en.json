@@ -33,6 +33,16 @@
       "DEV_WEB_TITLE": "Web and web mobile developer",
       "DEV_CONCEPTOR_TITLE": "Software application developer"
     },
+    "PROJECTS": {
+      "MSN": {
+        "TITLE": "MSN: Digital school textbooks",
+        "DESCRIPTION": "Digital school textbooks are collaborative online tools designed for teachers. They enable the creation, duplication, sharing, and editing of interactive school textbooks to enhance classroom activities. More than just traditional textbooks, they also offer knowledge tests, games, and other interactive exercises to make lessons and learning more engaging."
+      },
+      "PORTFOLIO": {
+        "TITLE": "Thomas Biarneix's Portfolio",
+        "DESCRIPTION": "This portfolio is an opportunity to introduce you to my journey and also to put into practice what I am most passionate about: creating simple, intuitive, and accessible interfaces. Here, I've used technologies that I particularly enjoy, and I've taken the opportunity to add some additional features such as internationalization management, an accessibility module, and the management of dark and light themes."
+      }
+    },
     "OTHERS": {
       "PHOTO": {
         "TITLE": "Photo",
