@@ -6,9 +6,17 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --font-color: #ffffff;
-    --backgroud-color: #12100e;
-    --background-rgb: rgb(33, 14, 75);
     --background-gradient: radial-gradient(#100826,#060212);
+  }
+
+  .dark {
+    --font-color: #ffffff;
+    --background-gradient: radial-gradient(#100826,#060212);
+  }
+
+  .light {
+    --font-color: #000000;
+    --background-color: #ffffff;
   }
   
 }
