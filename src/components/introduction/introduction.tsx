@@ -22,8 +22,8 @@ const Introduction: React.FC = () => {
           <LanguageSwitcher />
         </div>
       </div>
-      <div>
-        <div className={styles.social}>
+      <li className={styles.social}>
+        <ul>
           <a href="https://github.com/Tbiarneix" target="_blank">
             <Image
               src={githubLogoWhite}
@@ -32,6 +32,8 @@ const Introduction: React.FC = () => {
               height={32}
             />
           </a>
+        </ul>
+        <ul>
           <a href="https://www.linkedin.com/in/tbiarneix/" target="_blank">
             <Image
               src={linkedinLogoWhite}
@@ -40,8 +42,8 @@ const Introduction: React.FC = () => {
               height={32}
             />
           </a>
-        </div>
-      </div>
+        </ul>
+      </li>
     </header>
   );
 };

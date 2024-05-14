@@ -1,24 +1,18 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
+  --font-color: #ffffff;
+  --background-gradient: radial-gradient(#100826, #060212);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --font-color: #ffffff;
-    --background-gradient: radial-gradient(#100826,#060212);
-  }
+.dark {
+  --font-color: #ffffff;
+  --background-gradient: radial-gradient(#100826, #060212);
+}
 
-  .dark {
-    --font-color: #ffffff;
-    --background-gradient: radial-gradient(#100826,#060212);
-  }
-
-  .light {
-    --font-color: #000000;
-    --background-color: #ffffff;
-  }
-  
+.light {
+  --font-color: #000000;
+  --background-color: #ffffff;
 }
 
 * {

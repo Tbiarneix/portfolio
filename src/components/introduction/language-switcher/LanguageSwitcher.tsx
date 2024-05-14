@@ -9,14 +9,31 @@ const LanguageSwitcher: React.FC = () => {
   const router = useRouter();
 
   return (
-    <div id="langague-switcher" className={styles["language-switcher"]}>
-      <a title="English" id="English-Language-Button" onClick={() => router.push("/en")}>
-        <Image src={ukFlag} alt="English Flag" width={32} height={32} />
-      </a>
-      <a title="Français" id="Francais-Language-Button" onClick={() => router.push("/fr")}>
-        <Image src={frenchFlag} alt="Drapeau Français" width={32} height={32} />
-      </a>
-    </div>
+    <li id="langague-switcher" className={styles["language-switcher"]}>
+      <ul>
+        <a
+          title="English"
+          id="English-Language-Button"
+          onClick={() => router.push("/en")}
+        >
+          <Image src={ukFlag} alt="English Flag" width={32} height={32} />
+        </a>
+      </ul>
+      <ul>
+        <a
+          title="Français"
+          id="Francais-Language-Button"
+          onClick={() => router.push("/fr")}
+        >
+          <Image
+            src={frenchFlag}
+            alt="Drapeau Français"
+            width={32}
+            height={32}
+          />
+        </a>
+      </ul>
+    </li>
   );
 };
 
