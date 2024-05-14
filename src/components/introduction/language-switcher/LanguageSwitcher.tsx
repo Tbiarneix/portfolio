@@ -10,11 +10,11 @@ const LanguageSwitcher: React.FC = () => {
 
   return (
     <div id="langague-switcher" className={styles["language-switcher"]}>
-      <a title="English" onClick={() => router.push("/en")}>
-        <Image src={ukFlag} alt="GitHub logo" width={32} height={32} />
+      <a title="English" id="English-Language-Button" onClick={() => router.push("/en")}>
+        <Image src={ukFlag} alt="English Flag" width={32} height={32} />
       </a>
-      <a title="Français" onClick={() => router.push("/fr")}>
-        <Image src={frenchFlag} alt="GitHub logo" width={32} height={32} />
+      <a title="Français" id="Francais-Language-Button" onClick={() => router.push("/fr")}>
+        <Image src={frenchFlag} alt="Drapeau Français" width={32} height={32} />
       </a>
     </div>
   );
