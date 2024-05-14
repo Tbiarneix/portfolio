@@ -8,7 +8,7 @@ Designed by my own and coded with module.css strategy.
 It is deployed with Vercel.
 
 
-## Ecoconception and accessibility
+## Ecoc-onception and accessibility
 
 This project respect eco-conception and accessibility standarts.
 I choose a dedicated typography Luciole to improve reading.
