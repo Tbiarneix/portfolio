@@ -5,6 +5,11 @@
   list-style-type:none;
 }
 
+.language-switcher button {
+  background-color: transparent;
+  border: none;
+}
+
 .language-switcher img {
   width: 24px;
   height: 24px;

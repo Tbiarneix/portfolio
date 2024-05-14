@@ -11,16 +11,18 @@ const LanguageSwitcher: React.FC = () => {
   return (
     <li id="langague-switcher" className={styles["language-switcher"]}>
       <ul>
-        <a
+        <button
           title="English"
+          name="English-Language"
           onClick={() => router.push("/en")}
         >
           <Image src={ukFlag} alt="English Flag" width={32} height={32} />
-        </a>
+        </button>
       </ul>
       <ul>
-        <a
+        <button
           title="Français"
+          name="Langue-Francaise"
           onClick={() => router.push("/fr")}
         >
           <Image
@@ -29,7 +31,7 @@ const LanguageSwitcher: React.FC = () => {
             width={32}
             height={32}
           />
-        </a>
+        </button>
       </ul>
     </li>
   );
