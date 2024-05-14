@@ -10,7 +10,7 @@ export const otherItems: IOtherItems[] = [
     title: "OTHERS.PHOTO.TITLE",
     backgroudImage: "./photography.jpg",
     descripion: "OTHERS.PHOTO.DESCRIPTION",
-    url: "https://thomasbiarneix.com",
+    url: "https://photo.thomasbiarneix.com",
   },
   {
     title: "OTHERS.PODCAST.TITLE",
