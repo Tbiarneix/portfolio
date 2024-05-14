@@ -23,18 +23,18 @@ const Experiences: React.FC = () => {
   return (
     <div>
       <div className={styles.tab}>
-        <h4
+        <h3
           className={activeTab === "formations" ? styles["unactive-tab"] : ""}
           onClick={switchTab}
         >
           {tDescription("EXPERIENCES.EXPERIENCES_TITLE")}
-        </h4>
-        <h4
+        </h3>
+        <h3
           className={activeTab === "experiences" ? styles["unactive-tab"] : ""}
           onClick={switchTab}
         >
           {tDescription("FORMATIONS.FORMATIONS_TITLE")}
-        </h4>
+        </h3>
       </div>
       <hr />
       {activeTab === "experiences" ? (
@@ -48,7 +48,7 @@ const Experiences: React.FC = () => {
               <span className={styles["job-date"]}>{experience.date}</span>
               <div className={styles.job}>
                 <div>
-                  <h3>{experience.compagny}</h3>
+                  <h4>{experience.compagny}</h4>
                   <span className={styles["job-details"]}>
                     {tDescription(`${experience.title}`)}
                   </span>
@@ -75,7 +75,7 @@ const Experiences: React.FC = () => {
               <span className={styles["job-date"]}>{formations.date}</span>
               <div className={styles.job}>
                 <div>
-                  <h3>{tDescription(`${formations.title}`)}</h3>
+                  <h4>{tDescription(`${formations.title}`)}</h4>
                   <span className={styles["job-details"]}>
                     {formations.compagny}
                   </span>
