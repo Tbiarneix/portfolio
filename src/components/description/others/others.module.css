@@ -37,7 +37,7 @@
 
 .item-link {
   visibility: hidden;
-  transition-delay: 0.3s;
+  /* transition-delay: 0.3s; */
 
   margin-top: 1rem;
 }
