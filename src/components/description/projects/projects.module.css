@@ -34,7 +34,7 @@
   margin: 0.7rem 0.2rem;
 
   font-size: small;
-  color: grey;
+  opacity: 0.65;
 }
 
 .tag-container {
