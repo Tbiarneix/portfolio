@@ -7,6 +7,10 @@
 }
 
 .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   width: 30%;
   height: 20vh;
   margin: 0.5rem;
@@ -30,16 +34,16 @@
 
 .item-description {
   visibility: hidden;
-  transition-delay: 0.3s;
+  transition-delay: 0.8s;
 
   margin: 1rem 10px 0.5rem;
 }
 
 .item-link {
   visibility: hidden;
-  /* transition-delay: 0.3s; */
+  transition-delay: 0s;
 
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .item:hover .item-title {

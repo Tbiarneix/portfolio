@@ -11,7 +11,7 @@ const Others: React.FC = () => {
     const target = event.currentTarget;
     const siblings = Array.from(target.parentNode.children);
 
-    if (target.style.width === "50%") {
+    if (target.style.width === "60%") {
       target.style.width = "30%";
       target.style.backgroundImage = target.style.backgroundImage.split(",")[8];
       siblings.forEach((sibling: any) => {
@@ -25,7 +25,7 @@ const Others: React.FC = () => {
       return;
     }
 
-    target.style.width = "50%";
+    target.style.width = "60%";
     target.style.backgroundImage = `linear-gradient(rgba(75, 75, 75, 0.8), rgba(75, 75, 75, 0.8)), ${target.style.backgroundImage}`;
     siblings.forEach((sibling: any) => {
       if (sibling !== target) {
